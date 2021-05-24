@@ -34,7 +34,7 @@ jobs:
 
       - name: GitHub Super-Linter
 
-        uses: github/super-linter@master
+        uses: .github/workflows/linter.yaml github/super-linter@master
 
         env:
 
